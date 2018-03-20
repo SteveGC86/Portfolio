@@ -1,0 +1,54 @@
+<svg width="388" height="232" viewBox="0 0 388 232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>TriDi</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-61 1586)">
+<g id="TriDi">
+<g id="Tri-Dia">
+<g id="Vector">
+<use xlink:href="#path0_stroke" transform="translate(137 -1584)" fill="#D1B180"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_stroke" transform="translate(249 -1470)" fill="#D1B180"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_stroke" transform="matrix(-1 0 0 1 361.5 -1584)" fill="#D1B180"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path0_stroke" transform="matrix(1 0 0 -1 138 -1356)" fill="#D1B180"/>
+</g>
+</g>
+<g id="Tri-Dia">
+<g id="Vector">
+<use xlink:href="#path1_stroke" transform="translate(62 -1584)" fill="#D1B180"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_stroke" transform="translate(174 -1470)" fill="#D1B180"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_stroke" transform="matrix(-1 0 0 1 286.5 -1584)" fill="#D1B180"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_stroke" transform="matrix(1 0 0 -1 63 -1356)" fill="#D1B180"/>
+</g>
+</g>
+<g id="Tri-Dia">
+<g id="Vector">
+<use xlink:href="#path1_stroke" transform="translate(223 -1584)" fill="#D1B180"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_stroke" transform="translate(335 -1470)" fill="#D1B180"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_stroke" transform="matrix(-1 0 0 1 447.5 -1584)" fill="#D1B180"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_stroke" transform="matrix(1 0 0 -1 224 -1356)" fill="#D1B180"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 11 102.753L 12.4298 104.152L 12.4298 104.152L 11 102.753ZM 110.07 -1.39845L 9.5702 101.355L 12.4298 104.152L 112.93 1.39845L 110.07 -1.39845ZM 9.5702 101.355L -1.4298 112.602L 1.4298 115.398L 12.4298 104.152L 9.5702 101.355Z"/>
+<path id="path1_stroke" d="M 11 102.753L 11.7149 103.453L 11 102.753ZM 110.785 -0.699224L 10.2851 102.054L 11.7149 103.453L 112.215 0.699224L 110.785 -0.699224ZM 10.2851 102.054L -0.714902 113.301L 0.714902 114.699L 11.7149 103.453L 10.2851 102.054Z"/>
+</defs>
+</svg>

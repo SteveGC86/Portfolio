@@ -36,14 +36,23 @@ a{
     min-height: 100vh;
 }
 
+#navbar{
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+
+}
+
 #homepage{
     display: flex;
     flex-direction: column;
     background: #efefef;
     justify-content: space-around;
     min-height: 100vh;
+    background-image:url(img/TriDi.svg) 
    
 }
+
 
 .hero{
     display: flex;
@@ -66,6 +75,9 @@ a{
     justify-content: space-between;
     flex-direction: column;
 }
+.bio{
+    background: url(img/TriDi.jpg)
+}
 .logo{
     /* justify-content: flex-start; */
     padding: 0px 0px 0px 15px;
@@ -84,6 +96,7 @@ a{
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
+
 }
 
 #contact{
@@ -96,6 +109,7 @@ a{
 
 .link{
     display: flex;
+    flex-direction: row;
     justify-self: center;
     align-self: center;
     font-weight: bold;
@@ -106,7 +120,10 @@ a{
     display: flex;
     justify-content: space-around;
 }
-
+.web{
+    display: flex;
+    align-self: center;
+}
 
 
 #form{

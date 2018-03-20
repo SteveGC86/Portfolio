@@ -1,0 +1,39 @@
+<svg width="121" height="105" viewBox="0 0 121 105" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Triangle Geo (B)</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-822 1054)">
+<g id="Triangle Geo (B)">
+<g id="Vector">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(822 -1054)" fill="#ACBEBE"/>
+</g>
+</g>
+<g id="Vector">
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(839.002 -1034)" fill="#D1B180"/>
+</g>
+</g>
+<g id="Vector">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="matrix(1 0 0 -1 880 -949.012)" fill="#ACBEBE"/>
+</g>
+</g>
+<g id="Vector 2.1">
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(880.472 -1033.95)" fill="#D1B180"/>
+</g>
+</g>
+<g id="Vector">
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(841.735 -963.006)" fill="#D1B180"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 43.8373 30.4941L 42.102 29.5L 43.8373 30.4941ZM 10.0413 89.4941L 11.7767 90.4882L 10.0413 89.4941ZM 59 1.23901e-08L 42.102 29.5L 45.5728 31.4882L 62.4709 1.98818L 59 1.23901e-08ZM 42.102 29.5L 8.30583 88.5L 11.7767 90.4882L 45.5728 31.4882L 42.102 29.5ZM 8.30583 88.5L -2.93732e-08 103L 3.4709 104.988L 11.7767 90.4882L 8.30583 88.5Z"/>
+<path id="path1_fill" d="M 31.7045 21.9052L 29.9709 20.9078L 31.7045 21.9052ZM 7.64618 63.7207L 9.37974 64.7181L 7.64618 63.7207ZM 42 -5.25665e-09L 29.9709 20.9078L 33.438 22.9026L 45.4672 1.99478L 42 -5.25665e-09ZM 29.9709 20.9078L 5.91263 62.7233L 9.37974 64.7181L 33.438 22.9026L 29.9709 20.9078ZM 5.91263 62.7233L 3.39127e-08 73L 3.46712 74.9948L 9.37974 64.7181L 5.91263 62.7233Z"/>
+<path id="path2_fill" d="M 15.9338 27.4431L 17.6975 26.5L 15.9338 27.4431ZM 21.2811 37.4431L 19.5174 38.3862L 21.2811 37.4431ZM 26.8956 47.9431L 28.6593 47L 26.8956 47.9431ZM 17.6975 26.5L 3.52738 1.17378e-08L 5.18799e-09 1.88617L 14.1702 28.3862L 17.6975 26.5ZM 23.0447 36.5L 17.6975 26.5L 14.1702 28.3862L 19.5174 38.3862L 23.0447 36.5ZM 42.0274 72L 28.6593 47L 25.132 48.8862L 38.5 73.8862L 42.0274 72ZM 28.6593 47L 23.0447 36.5L 19.5174 38.3862L 25.132 48.8862L 28.6593 47Z"/>
+<path id="path3_fill" d="M 0 4L 55.8974 4L 55.8974 0L 0 0L 0 4ZM 55.8974 4L 80 4L 80 0L 55.8974 0L 55.8974 4Z"/>
+</defs>
+</svg>
