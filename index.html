@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Steven Christenson</title>
+</head>
+   
+    <body>
+
+        <!-- Home Page -->
+     <section id="homepage" class="section">
+           <img class="hero"src="/img/logo-white.svg" alt="Logo">
+           <a id="link" href="#aboutpage">
+                <h3>See what I'm about</h3>
+            </a>
+     </section> 
+
+
+     <!-- About Me -->
+     <section id="aboutpage" class="section">
+             <div class="head"></div>
+                <img class="logo" src="img/page-logo.svg" alt="Small Logo">
+                <h2 class="title">Who am I</h2>
+                <div>
+                            <p>As a current student at CoderAcademy Melbourne, I'm on a mission to kickstart my career as a developer and join the leaders, game-changers and rule-breakers redefining the tech scene.<br>
+                            After spending the better part of 10 years as a public servant in Brisbane, I decided it was time to find my 'why' - a way of turning my passions for innovation, UX design, coding and tech into a career. Now, it's only a matter of 'when'.
+                            <br>
+                            For me, there's nothing more satisfying than seeing a project come to life, and better still, being part of the team that's made it happen. I love a challenge, and see every hurdle as a learning opportunity that ultimately strengthens the end product. So whether you're hiring, looking to collaborate, or just want to connect, I'd love to hear from you.</p>
+                    <a class="link" href="#"><h3>Find Out More</h3></a>
+                </div>
+                <div class="liner"></div>
+     </section>
+
+
+
+     <!-- Tech Stack  -->
+     <section id="techstack"  class="section">
+        <div class="liner"></div>
+        <img class="logo" src="img/page-logo.svg" alt="Small Logo">
+        <h2 class="title">Tech Stack</h2>
+        <div class="container-list">
+            <!-- <p><b>Tech Skills</b></p> -->
+            <div class="list">
+                    <h3>Tech Skills</h3>
+                    <ul>
+                        <li>html yeah</li>
+                        <li>CSS</li>
+                        <li>Ruby </li>
+                        <li>Javascript</li>
+                        <li>React</li>
+                        <li>Node JS</li> 
+                    </ul>
+            </div>
+            <div class="list">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Great listener</li>
+                        <li>Teams</li>
+                    </ul>
+            </div>
+        </div>
+        <a class="link" href="#"><h3>Check Me Out</h3></a>
+        <div class="liner six"></div>
+     </section>
+
+
+     <!-- section portfolio -->
+     <section id="portfolio">
+        <div class="liner"></div>
+        <div class="brand"> 
+            <img src="img/page-logo.svg" alt="Small Logo">
+        </div>
+        <h2 class="title">Portfolio</h2>
+        <div>
+           <h4>Linked In</h4>
+           <h4>CodePen</h4>
+           <h4>GitHub</h4>
+           <h4>Stacked Overflow</h4>
+        </div>
+        <div class="liner"></div>
+     </section>
+
+
+
+     <!-- section contact -->
+     <section id="contact">
+         <div class="liner"></div>
+         <img class ="logo" src="img/page-logo.svg" alt="Small Logo">
+         <h2 class="title">Contact Me</h2>
+         <div id="form">
+            <form name="contact" method="POST" action="thank-you" netlify>
+                <p>
+                    <label>Name: <br><input type="text" name="name"></label>
+                </p>
+                <p>
+                  <label>Email:<br><input type="text" name="email"></label>
+                </p>
+                <p>
+                  <label>Your Thoughts<br> <textarea name="message"></textarea></label>
+                </p>
+                <div netlify-recaptcha></div>
+                <p>
+                  <button type=”submit”><h3>Send it through</h3></button>
+                </p>
+              </form>
+         </div>
+         <div class="liner"></div>
+     </section>
+
+    </body>
+</html>
