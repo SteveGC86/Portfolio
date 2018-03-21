@@ -1,0 +1,263 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-decoration: none;
+    color: black;
+}
+
+.scrollDown{
+    justify-self: center;
+    align-self: center;
+}
+
+.liner{
+    background: #ACBEBE;
+    padding: 0;
+    min-height: 20px;
+}
+
+.head{
+    background: #ACBEBE;
+    padding: 0;
+    min-height: 30px;
+}
+
+.section {
+    min-height: 100vh;
+}
+
+
+
+#homepage{
+    display: flex;
+    flex-direction: column;
+    background: #efefef;
+    justify-content: space-around;
+    min-height: 100vh; 
+   
+}
+
+
+.hero{
+    display: flex;
+    justify-content: center; 
+    align-content: center;
+}
+
+.title{
+    display: flex;
+   align-self: flex-start;
+   padding: 0px 0px 0px 10px;
+}
+
+#aboutpage{
+    display: flex;
+    min-height: 100vh;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.bio{
+    margin: 0 20px 0 20px;
+    background-position: center;
+    background-image: url("img/TriDi.jpg");
+    background-repeat: no-repeat;
+}
+ 
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    padding: 0px 0px 50px 15px;
+    align-self: flex-start;
+}
+
+#techstack{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    font-weight: bold;
+}
+
+
+.container-list{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 0 30px;
+}
+
+.list{
+    padding: 0 20px 0 20px;
+}
+
+
+
+.header-title {
+    text-align: center;
+}
+.box{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+/*CSS for circle in portfolio*/
+.circle{
+    display: flex;
+    align-self: center;
+    padding: 20 0 0 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width:50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+  
+  .circle .share
+  {
+    position:relative;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+      color: #fff;
+    background: #ACBEBE;
+    border-radius:50%;
+    z-index: 1;
+    box-shadow: 0 0 0 2px #112833;
+  }
+  
+  .circle ul{
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 150px;
+    background: #efefef;
+    border-radius: 50%;
+    transition: .5s;
+    box-shadow: 0 0 0 2px #1b3646, 0 0 0 4px #fff;
+    transition: 1s;
+    transform: scale(.3) rotate(-180deg);
+    z-index: -1; 
+    opacity: 0;
+  }
+  
+  .circle:hover ul{
+    transform: scale(1) rotate(0deg);
+    box-shadow: 0 0 0 2px #1b3646, 0 0 0 4px #fff, 0 5px #efefef;
+    opacity: 1;   
+  }
+  
+  .circle ul li{
+    position: absolute;
+    list-style-type: none;
+  }
+  
+  .circle ul li:nth-child(1){
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .circle ul li:nth-child(2){
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .circle ul li:nth-child(3){
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+  }
+  .circle ul li:nth-child(4){
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+  }
+  
+  .circle ul li a .fa{
+    color: #D1B180;
+    transform: scale(1.5);
+  }
+.circle ul:before{
+    content: '';
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #112833;
+    transform: rotate(45deg);
+}
+    
+.circle ul:after{
+    content: '';
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #112833;
+    transform: rotate(-45deg);
+}
+
+
+.check{
+    padding-right: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    justify-self: center;
+    align-self: center;
+    padding: 0px 0px 10px 0px;
+}
+
+form textarea {
+    min-height: 50vh;
+}
+    
+    
+
+
